@@ -1,0 +1,162 @@
+*{
+margin: 0; padding-top: 0;
+box-sizing: border-box;
+
+}
+ .mainheader{
+ 	width: 100%;
+ 	height: 100px;
+ 	display: flex;
+ 	justify-content: space-between;
+ 	align-items: center;
+ 	font-family: 'Josefin Sans', sans-serif;
+ }
+  .mainheader nav{
+ 	width: 450px;
+ 	display: flex;
+ 	justify-content: space-around;
+ 	align-items: center;
+ 	font-family: 'Josefin Sans', sans-serif;
+ }
+  .mainheader .logo img{
+ 	width: 130px; height: 100px;
+ 	padding-left: 30px;
+ 	font-family: 'Josefin Sans', sans-serif;
+ }
+ .mainheader nav a{
+ 	text-decoration: none;
+ 	color: black;
+ 	text-transform: uppercase;
+ 	font-family: 'Josefin Sans', sans-serif;
+ }
+ .menubutton{
+	margin-right: 60px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+ .mainheader button{
+ 	padding: 10px 45px;
+ 	text-align: center;
+ 	font-size: 14px;
+ 	color: #fff;
+ 	border: none;
+ 	background-image: linear-gradient(to right,#649bff,#0070fa,#649bff);
+ 	border-radius: 10px;
+ 	font-family: 'Josefin Sans', sans-serif;
+ }
+  
+ 	
+
+ .travel a{
+ 	text-decoration: none;
+ 	color: black;
+ 	text-transform: uppercase;
+ 	position: relative;
+ 	top: 100px;
+ 	left: 450px;
+ 	font-family: 'Josefin Sans', sans-serif;
+ 	font-size: xx-large;
+ }
+.travel nav{
+  	width: 450px;
+ 	display: flex;
+ 	justify-content: space-around;
+ 	align-items: center;
+ 	font-family: 'Josefin Sans', sans-serif;
+ 	font-size: xx-large;
+ }
+ .travel2 nav{
+	width: 450px;
+ 	display: flex;
+ 	justify-content: space-around;
+ 	align-items: center;
+ 	font-family: 'Josefin Sans', sans-serif;
+ 	font-size: xx-large;
+ }
+.travel2 a{
+	text-decoration: none;
+ 	color: black;
+ 	text-transform: uppercase;
+ 	position: relative;
+ 	top: 200px;
+ 	left: 450px;
+ 	font-family: 'Josefin Sans', sans-serif;
+ 	font-size: xx-large;
+
+ }
+
+	
+.travel3 nav{
+	width: 450px;
+ 	display: flex;
+ 	justify-content: space-around;
+ 	align-items: center;
+ 	font-family: 'Josefin Sans', sans-serif;
+ 	font-size: xx-large;
+}	
+.travel3 a{
+	text-decoration: none;
+ 	color: black;
+ 	text-transform: uppercase;
+ 	position: relative;
+ 	top: 400px;
+ 	left: 460px;
+ 	font-size: xx-large;
+ 	font-family: 'Josefin Sans', sans-serif;
+ 	font-size: xx-large;
+}
+	body{
+	margin: 0;
+	padding: 0; 
+}
+.slider{
+	height: 100vh;
+	width: 100%;
+	background-image: url(../Images/airplane.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: 1s;
+	animation-name: slider;
+	animation-direction:alternate-reverse;
+	animation-duration:30s;
+	animation-fill-mode:forwards;
+	animation-iteration-count:infinite;
+	animation-play-state:running;
+	animation-timing-function:ease-in-out;
+}
+@keyframes slider{
+	0%,{
+		background-image: url(railway.jpg);
+	
+	}25%{
+		background-image: url(hotel.jpg);
+	
+	}50%{
+		background-image: url(railway.jpg);
+	
+	}75%{
+		background-image: url(zxc.jpg);
+	}100%{
+		background-image: url(airplane.jpg);
+	}
+	
+}
+.travel4 nav{
+	width: 450px;
+ 	display: flex;
+ 	justify-content: space-around;
+ 	align-items: center;
+ 	font-family: 'Josefin Sans', sans-serif;
+ 	font-size: xx-large;
+}
+.travel4 a{
+	text-decoration: none;
+ 	color: black;
+ 	text-transform: uppercase;
+ 	position: relative;
+ 	top: 250px;
+ 	left: 450px;
+ 	font-size: xx-large;
+ 	font-family: 'Josefin Sans', sans-serif;
+ 	font-size: xx-large;
+}
